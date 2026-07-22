@@ -473,7 +473,7 @@ export default {
             Authorization: `Bearer ${API_KEY}`,
           },
           body: JSON.stringify({
-            model: "kimi-chat",
+            model: "deepseek-chat",
             messages: [
               {
                 role: "system",

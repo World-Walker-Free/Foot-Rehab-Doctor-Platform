@@ -1,0 +1,11 @@
+{
+  "functions": [
+    {
+      "name": "doctor",
+      "timeout": 30,
+      "runtime": "Nodejs18.15",
+      "installDependency": true,
+      "handler": "index.main"
+    }
+  ]
+}
